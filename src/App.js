@@ -14,7 +14,13 @@ import Projects from "./pages/projects";
 function App() {
   return (
     <div>
-      <Navbar/>
+
+      <Navbar />
+      <Routes>
+        <Route path="/aboutme" element={<AboutMe />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
     </div>
   );
 }
