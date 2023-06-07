@@ -46,7 +46,8 @@ const AboutMe = () => {
                   strings: ["I am Joaquin Castrillon", "CS Student at University of Central Florida"],
                   autoStart: true,
                   loop: true,
-                  deleteSpeed:"40"
+                  typeSpeed : "70",
+                  deleteSpeed:"70"
                   
                 }}
               />
